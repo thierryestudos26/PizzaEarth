@@ -74,7 +74,7 @@ Entre elas:
 
 No projeto, atuei como:
 
-**Diretor do Jogo**  
+**Diretor de Jogo**  
 Responsável pela coordenação da visão geral do projeto e integração dos diferentes elementos do jogo.
 
 **Diretor de Programação**  
