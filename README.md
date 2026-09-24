@@ -47,7 +47,7 @@ O projeto foi desenvolvido utilizando:
 | **Marcos Vinicius Camargo dos Santos** | Diretor Criativo e Designer |
 | **Mauro Celestino Alves Junior** | Diretor de Som e Designer |
 | **Nicolas Luis Pavanetti** | Diretor de Design e Arte |
-| **Thierry Monteiro Assis Santos** | Diretor do Jogo e Diretor de Programação |
+| **Thierry Monteiro Assis Santos** | Diretor de Jogo e Diretor de Programação |
 
 ---
 
