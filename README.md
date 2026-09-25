@@ -103,12 +103,6 @@ Ainda assim, o projeto foi fundamental para adquirir experiência prática com d
 
 ---
 
-## Status
-
-Projeto concluído.
-
----
-
 ## Autor
 
 **Thierry Monteiro**
