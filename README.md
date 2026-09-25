@@ -1,143 +1,108 @@
 # Pizza Earth
 
 <p align="center">
-  <strong>Jogo de plataforma e aventura desenvolvido em Unity 6.0</strong>
-</p>
-
-<p align="center">
-  Projeto desenvolvido por estudantes da ETEC Dr. José Rodrigues Alckmin.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Unity-6.0-000000?style=for-the-badge&logo=unity&logoColor=white">
-  <img src="https://img.shields.io/badge/Projeto-Estudantil-2C3E50?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Gênero-Plataforma%20%7C%20Aventura-4B6584?style=for-the-badge">
+  Jogo de plataforma e aventura desenvolvido em <strong>Unity</strong> como projeto acadêmico.
 </p>
 
 ---
 
-## Sobre o projeto
+## 🎮 Controles
 
-**Pizza Earth** é um jogo de plataforma e aventura desenvolvido em **Unity 6.0** como um projeto realizado por estudantes do ensino médio da **ETEC Dr. José Rodrigues Alckmin**.
+| Tecla | Ação                      |
+| :---: | ------------------------- |
+|  `J`  | Atirar                    |
+|  `W`  | Pular                     |
+|  `A`  | Andar para a esquerda     |
+|  `D`  | Andar para a direita      |
+| `Tab` | Abrir o menu de atributos |
 
-O projeto envolveu diferentes áreas do desenvolvimento de jogos, incluindo programação, game design, direção criativa, arte, level design e produção sonora.
+---
 
-O desenvolvimento foi realizado por uma equipe de quatro integrantes, com cada membro responsável por diferentes aspectos da produção do jogo.
+## Sobre o Projeto
+
+**Pizza Earth** é um jogo de plataforma e aventura desenvolvido utilizando **Unity 6.0**.
+
+O projeto foi criado por estudantes da **ETEC Dr. José Rodrigues Alckmin** e teve como objetivo aplicar, na prática, conhecimentos relacionados ao desenvolvimento de jogos, programação, game design e organização de projetos.
 
 ---
 
 ## Tecnologias
 
-O projeto foi desenvolvido utilizando:
-
-- **Unity 6.0**
-- Sistema de física 2D da Unity
-- Tilemaps e Colliders 2D
-- Animações
-- Desenvolvimento de mecânicas de plataforma
-- Sistemas de áudio e efeitos sonoros
-- Controle de versão com **Git e GitHub**
-
----
-
-## Equipe
-
-| Integrante | Função |
-|---|---|
-| **Marcos Vinicius Camargo dos Santos** | Diretor Criativo e Designer |
-| **Mauro Celestino Alves Junior** | Diretor de Som e Designer |
-| **Nicolas Luis Pavanetti** | Diretor de Design e Arte |
-| **Thierry Monteiro Assis Santos** | Diretor de Jogo e Diretor de Programação |
+* Unity 6.0
+* C#
+* Git
+* GitHub
 
 ---
 
 ## Desenvolvimento
 
-Durante o desenvolvimento do projeto, a equipe trabalhou em diferentes áreas da produção de um jogo digital.
+O projeto foi desenvolvido como parte do Trabalho de Conclusão de Curso (TCC), sendo uma das primeiras experiências da equipe com desenvolvimento de jogos utilizando Unity.
 
-Entre elas:
+Durante o desenvolvimento foram trabalhados conceitos como:
 
-- Desenvolvimento das mecânicas de movimentação;
-- Programação dos sistemas do jogo;
-- Construção e organização das fases;
-- Criação e integração dos elementos visuais;
-- Implementação de colisões e física;
-- Desenvolvimento do game design;
-- Produção e implementação de elementos sonoros;
-- Testes e correções de gameplay.
-
----
-
-## Minha participação
-
-### Thierry Monteiro Assis Santos
-
-No projeto, atuei como:
-
-**Diretor de Jogo**  
-Responsável pela coordenação da visão geral do projeto e integração dos diferentes elementos do jogo.
-
-**Diretor de Programação**  
-Responsável pelo desenvolvimento e organização de parte dos sistemas e mecânicas responsáveis pelo funcionamento do jogo.
-
-A experiência permitiu trabalhar tanto com aspectos técnicos de desenvolvimento em **Unity** quanto com decisões relacionadas à estrutura e ao funcionamento geral do jogo.
+* Movimentação de personagem
+* Física 2D
+* Sistema de combate
+* Colisões
+* Tilemaps
+* Interface de usuário
+* Sistema de atributos
+* Organização de cenas
+* Scripts em C#
+* Gerenciamento de projeto com Git
 
 ---
 
-## Executando o jogo
+## Minha Participação
 
-Uma versão compilada do projeto está disponível neste repositório.
+Participei do desenvolvimento do projeto atuando diretamente na implementação de funcionalidades, programação de sistemas e construção da experiência de jogo utilizando **Unity e C#**.
 
-### Windows
+O projeto também foi importante para o desenvolvimento dos meus conhecimentos iniciais em arquitetura de jogos, física, lógica de programação e utilização da Unity.
 
-1. Baixe o arquivo `.zip` contendo a build do jogo.
-2. Extraia todo o conteúdo do arquivo.
-3. Abra a pasta extraída.
-4. Execute:
+---
 
-```text
-Jogo da Pizza Low Budget.exe
+## Executando o Jogo
+
+1. Baixe ou clone o repositório:
+
+```bash
+git clone https://github.com/thierryestudos26/PizzaEarth.git
 ```
 
-> É importante manter o executável e a pasta `Jogo da Pizza Low Budget_Data` no mesmo diretório após a extração.
+2. Abra o projeto utilizando uma versão compatível do **Unity 6**.
+
+3. Aguarde a Unity importar os arquivos e dependências do projeto.
+
+4. Abra a cena principal.
+
+5. Pressione **Play** no editor da Unity.
 
 ---
 
-## Estrutura de uma build Unity
+## Estrutura de uma Build Unity
 
-A versão executável do jogo possui uma estrutura semelhante a:
+Uma build do jogo normalmente contém o executável principal e os arquivos de dados necessários para sua execução.
 
 ```text
-Jogo da Pizza Low Budget/
-│
-├── Jogo da Pizza Low Budget.exe
-│
-├── Jogo da Pizza Low Budget_Data/
-│   ├── Managed/
-│   ├── Resources/
-│   ├── StreamingAssets/
-│   └── ...
-│
+PizzaEarth/
+├── PizzaEarth.exe
+├── PizzaEarth_Data/
 ├── UnityPlayer.dll
 └── ...
 ```
 
-Os arquivos presentes na pasta `_Data` são necessários para que a aplicação Unity seja executada corretamente.
+Os arquivos presentes na pasta de dados fazem parte da aplicação e devem permanecer junto ao executável.
 
 ---
 
 ## Contexto
 
-Este projeto foi desenvolvido durante o ensino médio como uma experiência prática de desenvolvimento de jogos.
+O Pizza Earth representa uma etapa inicial do meu aprendizado com desenvolvimento de jogos.
 
-Além da implementação técnica, o projeto proporcionou experiência com:
+Por ter sido desenvolvido durante o ensino médio e em uma fase inicial de contato com a Unity, algumas implementações possuem limitações técnicas, principalmente relacionadas à física e a comportamentos condicionados ao *framerate*.
 
-- Desenvolvimento colaborativo;
-- Divisão de responsabilidades;
-- Planejamento de funcionalidades;
-- Integração entre programação, arte e áudio;
-- Resolução de problemas durante o desenvolvimento;
-- Desenvolvimento de software utilizando uma game engine profissional.
+Ainda assim, o projeto foi fundamental para adquirir experiência prática com desenvolvimento de jogos e serviu como base para projetos posteriores.
 
 ---
 
@@ -145,26 +110,11 @@ Além da implementação técnica, o projeto proporcionou experiência com:
 
 Projeto concluído.
 
-O repositório é mantido principalmente como **registro do desenvolvimento e portfólio dos integrantes da equipe**.
-
 ---
 
-## Autores
+## Autor
 
-**Marcos Vinicius Camargo dos Santos**  
-Direção Criativa e Design
+**Thierry Monteiro**
 
-**Mauro Celestino Alves Junior**  
-Direção de Som e Design
-
-**Nicolas Luis Pavanetti**  
-Direção de Design e Arte
-
-**Thierry Monteiro Assis Santos**  
-Direção do Jogo e Direção de Programação
-
----
-
-<p align="center">
-  Desenvolvido utilizando Unity 6.0
-</p>
+[GitHub](https://github.com/thierryestudos26)
+[LinkedIn](https://www.linkedin.com/in/thierry-monteiro/)
